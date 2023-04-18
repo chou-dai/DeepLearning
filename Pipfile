@@ -4,10 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
+numpy = "==1.24.2"
 matplotlib = "*"
 sklearn = "*"
 scikit-learn = "*"
+keras = "*"
+install = "*"
+h5py = "*"
 
 [dev-packages]
 pandas = "*"
